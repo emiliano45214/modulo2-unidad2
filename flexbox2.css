@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.padre{
+    margin-top: 2rem;
+    height: 51rem;
+    display: flex;
+    width: 51rem;
+    border:2px solid rgb(0, 0, 0);
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+}
+.hijo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    height: 17rem;
+    background-color: red;
+}
+.hijo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    height: 17rem;
+    background-color: blue;
+}
+.hijo3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17rem;
+    height: 17rem;
+    background-color: green;
+}
